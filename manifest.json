@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "GreenHouse Candidate Screener",
+    "version": "1.0",
+    "description": "An extension that helps Summarise the candidates and advice if he can continue or not",
+    "permissions": ["storage"],
+    "host_permissions": ["https://*.greenhouse.io/*", "https://api.groq.com/*"],
+    "content_scripts": [
+        {
+        "matches": ["https://*.greenhouse.io/*"],
+        "js": ["content.js"]
+        }
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}

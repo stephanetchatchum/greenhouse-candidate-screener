@@ -1,0 +1,1 @@
+console.log("Greenhouse Candidate Screener: background script loaded");
