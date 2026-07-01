@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Greenhouse Candidate Screener</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+  <div class="header">Greenhouse Candidate Screener</div>
+
+  <button id="summarizeBtn">Summarize Candidate</button>
+
+  <!-- Status Message/Spinner -->
+  <div id="status">Analyzing candidate profile...</div>
+
+  <!-- Results Area -->
+  <div id="results">
+    <div class="result-section">
+      <div class="section-title">Summary</div>
+      <div id="summaryText"></div>
+    </div>
+    <div class="result-section">
+      <div class="section-title">Strengths</div>
+      <div id="strengthsText"></div>
+    </div>
+    <div class="result-section">
+      <div class="section-title">Gaps</div>
+      <div id="gapsText"></div>
+    </div>
+    <div class="result-section">
+      <div class="section-title">Recommendation</div>
+      <div id="recommendationText"></div>
+    </div>
+  </div>
+
+  <div class="footer">Powered by Groq</div>
+
+  <!-- Link your popup.js here when ready -->
+  <!-- <script src="popup.js"></script> -->
+</body>
+</html>
