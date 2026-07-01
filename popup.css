@@ -1,19 +1,19 @@
 body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      width: 380px;
-      margin: 0;
-      padding: 16px;
-      background-color: #ffffff;
-      color: #333333;
-    }
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    width: 380px;
+    margin: 0;
+    padding: 16px;
+    background-color: #ffffff;
+    color: #333333;
+}
 
-    .header {
-      font-size: 16px;
-      font-weight: bold;
-      margin-bottom: 20px;
-      text-align: center;
-      color: #1a1a1a;
-    }
+.header {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+    text-align: center;
+    color: #1a1a1a;
+}
 
     button {
       width: 100%;
