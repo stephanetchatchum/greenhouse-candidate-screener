@@ -7,7 +7,7 @@
     "host_permissions": ["https://*.greenhouse.io/*", "https://api.groq.com/*"],
     "content_scripts": [
         {
-        "matches": ["https://*.greenhouse.io/*"],
+        "matches": ["https://*.greenhouse.io/applications/review/*"],
         "js": ["content.js"]
         }
     ],
